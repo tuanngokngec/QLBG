@@ -10,8 +10,8 @@ using Microsoft.AspNetCore.Hosting.Server;
 using System.Text.RegularExpressions;
 using Microsoft.Extensions.Caching.Memory;
 using System.Net.WebSockets;
-using static System.Net.Mime.MediaTypeNames;
-using System;
+using Microsoft.AspNetCore.Mvc.Rendering;
+
 
 
 namespace QuanLyBanGiay.Controllers
@@ -34,13 +34,13 @@ namespace QuanLyBanGiay.Controllers
         public async Task<IActionResult> MemoryCache()
         {
             var cacheData = _memoryCache.Get<IEnumerable<BoPhan>>("tblBoPhan");
-            if (cacheData != null)
+            if(cacheData != null)
             {
                 return View(cacheData);
             }
             var expirationTime = DateTimeOffset.Now.AddMinutes(5.0);
             cacheData = await _dbCustx.tblBoPhan.ToListAsync();
-            _memoryCache.Set("tblBoPhan", cacheData, expirationTime);
+            _memoryCache.Set("tblBoPhan",cacheData,expirationTime);
             return View(cacheData);
         }
 
@@ -52,7 +52,7 @@ namespace QuanLyBanGiay.Controllers
         public IActionResult NhaCungCap()
         {
             var lstNCC = _dbCustx.tblNhaCungCap.ToList();
-            return View(lstNCC);
+            return View(lstNCC) ;
         }
 
         [HttpPost]
@@ -103,7 +103,7 @@ namespace QuanLyBanGiay.Controllers
 
         }
 
-
+       
         public IActionResult NhaCungCap_Sua(string id)
         {
 
@@ -146,7 +146,7 @@ namespace QuanLyBanGiay.Controllers
                 var lstBP = a.Where(item => item.sTenBP.ToLower().Contains(TenBP.ToLower()) == true).ToList();
                 return View(lstBP);
             }
-
+           
 
         }
 
@@ -157,7 +157,7 @@ namespace QuanLyBanGiay.Controllers
         [HttpPost]
         public IActionResult BoPhan_ThemMoi(string MaBP, string TenBP)
         {
-
+         
             BoPhan bophan = new BoPhan();
             bophan.iMaBP = Convert.ToInt16(MaBP);
             bophan.sTenBP = TenBP;
@@ -166,14 +166,14 @@ namespace QuanLyBanGiay.Controllers
             return RedirectToAction("BoPhan");
         }
 
-        //public IActionResult BoPhan_Xoa()
-        //{
+        public IActionResult BoPhan_Xoa()
+        {
 
-        //    return View();
-        //}
+            return View();
+        }
 
         [HttpPost]
-        public IActionResult BoPhan_Xoa(string MaBP)
+        public IActionResult BoPhan_Xoa(int MaBP)
         {
             var hasEmployees = _dbCustx.tblNhanVien.Any(nv => nv.iMaBP == Convert.ToInt16(MaBP));
             if (hasEmployees)
@@ -182,26 +182,26 @@ namespace QuanLyBanGiay.Controllers
                 TempData["ErrorMessage"] = "Không thể xóa bộ phận này vì có nhân viên liên kết.";
                 return RedirectToAction("BoPhan");
             }
+            
 
-
-            var bp = _dbCustx.tblBoPhan.SingleOrDefault(item => item.iMaBP.Equals(Convert.ToInt16(MaBP)) == true);
+            var bp = _dbCustx.tblBoPhan.FirstOrDefault(item => item.iMaBP == MaBP);
             _dbCustx.tblBoPhan.Remove(bp);
             _dbCustx.SaveChanges();
             return RedirectToAction("BoPhan");
         }
-
+      
         public IActionResult BoPhan_Sua(string id)
         {
-
+            
             ViewBag.MaBP = id;
-
+        
             return View();
         }
 
         [HttpPost]
-        public IActionResult BoPhan_Sua_Handle(string MaBP, string TenBP)
+        public IActionResult BoPhan_Sua_Handle(int MaBP, string TenBP)
         {
-            var bp = _dbCustx.tblBoPhan.SingleOrDefault(item => item.iMaBP.Equals(Convert.ToInt16(MaBP)) == true);
+            var bp = _dbCustx.tblBoPhan.SingleOrDefault(item => item.iMaBP == MaBP);
             bp.sTenBP = TenBP;
             _dbCustx.SaveChanges();
             return RedirectToAction("BoPhan");
@@ -343,7 +343,7 @@ namespace QuanLyBanGiay.Controllers
                 _dbCustx.tblGiay.Add(giay);
                 _dbCustx.SaveChanges();
 
-
+                
 
                 if (Size != null && SoLuong != null && GiaNhap != null)
                 {
@@ -436,7 +436,7 @@ namespace QuanLyBanGiay.Controllers
             var results = query.ToList();
             return View(results);
             //var lstNV = _dbCustx.tblNhanVien.ToList();
-
+        
             //return View(lstNV);
         }
         [HttpPost]
@@ -448,80 +448,7 @@ namespace QuanLyBanGiay.Controllers
             return View(lstNV);
 
         }
-        public IActionResult NhanVien_ThemMoi()
-        {
-            return View();
-        }
-
-        [HttpPost]
-        public IActionResult NhanVien_ThemMoi(int MaNV, string TenNV,DateTime NgaySinh,string GioiTinh, string QueQuan, string SDT, int LCB,float HSL,int PC,DateTime NgayVaoLam,int MaBP)
-        {
-            NhanVien nhanVien = new NhanVien
-            {
-                iMaNV = MaNV,
-                sTenNV = TenNV,
-                dNgaysinh = NgaySinh,
-                sGioiTinh = GioiTinh,
-                sQueQuan = QueQuan,
-                sSDT = SDT,
-                iLuongCB = LCB,
-                fHSL = HSL,
-                iPC = PC,
-                iMaBP = MaBP,
-                dNgayvaolam = NgayVaoLam,
-            };
-
-            _dbCustx.tblNhanVien.Add(nhanVien);
-            _dbCustx.SaveChanges();
-            return RedirectToAction("Index");
-        }
-
-        [HttpPost]
-        public IActionResult NhanVien_Xoa(int id)
-        {
-            var nv = _dbCustx.tblNhanVien.Find(id);
-            if (nv != null)
-            {
-                _dbCustx.tblNhanVien.Remove(nv);
-                _dbCustx.SaveChanges();
-            }
-            return RedirectToAction("Index");
-        }
-
-        public IActionResult NhanVien_Sua(int id)
-        {
-            var nv = _dbCustx.tblNhanVien.Find(id);
-            if (nv == null)
-            {
-                return NotFound();
-            }
-            return View(nv);
-        }
-
-        [HttpPost]
-        public IActionResult NhanVien_Sua_Handle(int MaNV, string TenNV, DateTime NgaySinh, string GioiTinh, string QueQuan, string SDT, int LCB, float HSL, int PC, DateTime NgayVaoLam, int MaBP)
-        {
-            var nv = _dbCustx.tblNhanVien.Find(MaNV);
-            if (nv == null)
-            {
-                return NotFound();
-            }
-
-            nv.sTenNV = TenNV;
-            nv.dNgaysinh = NgaySinh;
-            nv.sGioiTinh = GioiTinh;
-            nv.sQueQuan = QueQuan;
-            nv.sSDT = SDT;
-            nv.iLuongCB = LCB;
-            nv.fHSL = HSL;
-            nv.iPC = PC;
-            nv.iMaBP = MaBP;
-            nv.dNgayvaolam = NgayVaoLam;
-
-            _dbCustx.SaveChanges();
-            return RedirectToAction("Index");
-        }
-
+        
         public IActionResult LuuFile()
         {
             var a = _dbCustx.tblGiay_Anh.ToList();
@@ -533,7 +460,7 @@ namespace QuanLyBanGiay.Controllers
         {
             var a = _dbCustx.tblGiay_Anh.ToList();
             return View(a);
-
+        
         }
 
         [HttpPost]
@@ -543,7 +470,7 @@ namespace QuanLyBanGiay.Controllers
             {
                 var fileName = Path.GetFileName(fileupload.FileName);
                 var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/image", fileName);
-
+     
                 using (var fileStream = new FileStream(filePath, FileMode.Create))
                 {
                     await fileupload.CopyToAsync(fileStream);
@@ -551,7 +478,7 @@ namespace QuanLyBanGiay.Controllers
 
                 ViewBag.Message = "File uploaded successfully";
                 var baseUrl = $"{this.Request.Scheme}://{this.Request.Host}";
-                var fileUrl = "~/image/" + fileName;
+                var fileUrl = "~/image/"+fileName;
                 ViewData["files"] = fileUrl;
 
                 var giayAnh = new Giay_Anh();
@@ -566,363 +493,225 @@ namespace QuanLyBanGiay.Controllers
             return View();
         }
 
+        public IActionResult PhieuNhapKho()
+        {
+            var lstPNK = _dbCustx.tblPhieuNhapKho.ToList();
+
+            return View(lstPNK);
+        }
+
+        // Action để hiển thị form thêm mới phiếu nhập kho
+        public IActionResult PhieuNhapKho_ThemMoi()
+        {
+            ViewBag.NhanViens = _dbCustx.tblNhanVien.Select(nv => new SelectListItem { Value = nv.iMaNV.ToString(), Text = nv.sTenNV }).ToList();
+            ViewBag.NhaCungCaps = _dbCustx.tblNhaCungCap.Select(ncc => new SelectListItem { Value = ncc.iMaNCC.ToString(), Text = ncc.sTenNCC }).ToList();
+            return View();
+        }
+
+        // Action xử lý khi người dùng gửi form thêm mới phiếu nhập kho
+        [HttpPost]
+        public IActionResult PhieuNhapKho_ThemMoi(PhieuNhapKho phieuNhapKho)
+        {
+            if (ModelState.IsValid)
+            {
+                phieuNhapKho.iMaPNK = _dbCustx.tblPhieuNhapKho.Count() + 1;
+                _dbCustx.tblPhieuNhapKho.Add(phieuNhapKho);
+                _dbCustx.SaveChanges();
+                return RedirectToAction("PhieuNhapKho");
+            }
+            return View(phieuNhapKho);
+        }
+
+        // Action để hiển thị form sửa phiếu nhập kho
+        public IActionResult PhieuNhapKho_Sua(int id)
+        {
+
+            ViewBag.NhanViens = _dbCustx.tblNhanVien.Select(nv => new SelectListItem { Value = nv.iMaNV.ToString(), Text = nv.sTenNV }).ToList();
+            ViewBag.NhaCungCaps = _dbCustx.tblNhaCungCap.Select(ncc => new SelectListItem { Value = ncc.iMaNCC.ToString(), Text = ncc.sTenNCC }).ToList();
+            var phieuNhapKho = _dbCustx.tblPhieuNhapKho.Find(id);
+            if (phieuNhapKho == null)
+            {
+                return NotFound();
+            }
+            return View(phieuNhapKho);
+        }
+
+        // Action xử lý khi người dùng gửi form sửa phiếu nhập kho
+        [HttpPost]
+        public IActionResult PhieuNhapKho_Sua(PhieuNhapKho phieuNhapKho)
+        {
+            if (ModelState.IsValid)
+            {
+                _dbCustx.Entry(phieuNhapKho).State = EntityState.Modified;
+                _dbCustx.SaveChanges();
+                return RedirectToAction("PhieuNhapKho");
+            }
+            return View(phieuNhapKho);
+        }
+
+        //public IActionResult PhieuNhapKho_Xoa()
+        //{
+        //    return View();
+        //}
+
+
+            // Action xóa phiếu nhập kho
+         [HttpPost]
+        public IActionResult PhieuNhapKho_Xoa(int id)
+        {
+            var phieuNhapKho = _dbCustx.tblPhieuNhapKho.Find(id);
+            if (phieuNhapKho == null)
+            {
+                return NotFound();
+            }
+            _dbCustx.tblPhieuNhapKho.Remove(phieuNhapKho);
+            _dbCustx.SaveChanges();
+            return RedirectToAction("PhieuNhapKho");
+        }
+
+        public IActionResult ChiTietPhieuNhapKho()
+        {
+            var chiTietPhieuNhapKhoList = _dbCustx.tblChiTietPhieuNhapKho.ToList();
+            return View(chiTietPhieuNhapKhoList);
+        }
+
+
+        public IActionResult ChiTietPhieuNhapKho_ThemMoi()
+        {
+            
+            ViewBag.MaGiays = _dbCustx.tblGiay.Select(nv => new SelectListItem { Value = nv.iMaGiay.ToString(), Text = nv.sTenGiay }).ToList();
+            var maPNKsDaCo = _dbCustx.tblChiTietPhieuNhapKho.Select(ct => ct.iMaPNK).ToList();
+
+            // Lấy danh sách các iMaPNK từ bảng tblPhieuNhapKho mà không có trong danh sách iMaPNKsDaCo
+            var maPNKsChuaCo = _dbCustx.tblPhieuNhapKho
+                .Where(pnk => !maPNKsDaCo.Contains(pnk.iMaPNK))
+                .Select(pnk => new SelectListItem { Value = pnk.iMaPNK.ToString(), Text = pnk.iMaPNK.ToString() })
+                .ToList();
+
+            if (maPNKsChuaCo.Count() == 0) 
+            {
+                TempData["ErrorMessage"] = "Không có Phiếu Nhập Kho nào chưa có Chi tiết Phiếu Nhập Kho. Hãy thêm Phiếu Nhập Kho trước khi thêm Chi Tiết Phiếu Nhập Kho";
+            }
+
+
+            //ViewBag.MaPNKs = _dbCustx.tblPhieuNhapKho.Select(nv => new SelectListItem { Value = nv.iMaPNK.ToString(), Text = nv.iMaPNK.ToString() }).ToList();
+            ViewBag.MaPNKs = maPNKsChuaCo;
+            return View();
+        }
+
+        // POST: Admin/ChiTietPhieuNhapKho_ThemMoi
+        [HttpPost]
+        public IActionResult ChiTietPhieuNhapKho_ThemMoi(int iMaPNK, int iMaGiay, int iSize, int iGiaNhap, int iSlNhap)
+        {
+          
+
+            
+            ChiTietPhieuNhapKho chiTietPhieuNhap = new ChiTietPhieuNhapKho();
+            chiTietPhieuNhap.iMaGiay = iMaGiay;
+            chiTietPhieuNhap.iMaPNK = iMaPNK;
+            chiTietPhieuNhap.iGiaNhap = iGiaNhap;
+            chiTietPhieuNhap.iSize = iSize;
+            chiTietPhieuNhap.iSlNhap = iSlNhap;
+            _dbCustx.tblChiTietPhieuNhapKho.Add(chiTietPhieuNhap);
+            _dbCustx.SaveChanges();
+
+            var existingKho = _dbCustx.tblKho.FirstOrDefault(k => k.iMaGiay == iMaGiay && k.iSize == iSize);
+
+            if (existingKho != null)
+            {
+                // Cập nhật thông tin cho bản ghi đã tồn tại
+                existingKho.iGiaNhap = iGiaNhap;
+                existingKho.iSoLuongKho += iSlNhap; // Cộng thêm số lượng nhập vào số lượng hiện có
+                _dbCustx.SaveChanges();
+            }
+            else
+            {
+                // Nếu không tìm thấy bản ghi đã tồn tại, thêm mới
+                Kho kho = new Kho();
+                kho.iMaGiay = iMaGiay;
+                kho.iGiaNhap = iGiaNhap;
+                kho.iSize = iSize;
+                kho.iMaNCC = GetMaNCCByMaGiay(iMaGiay);
+                kho.iSoLuongKho = iSlNhap;
+                _dbCustx.tblKho.Add(kho);
+                _dbCustx.SaveChanges();
+            }
+
+            return RedirectToAction("ChiTietPhieuNhapKho");
+        }
+
+        public int GetMaNCCByMaGiay(int maGiay)
+        {
+            var maNCC = _dbCustx.tblGiay
+                                .Where(k => k.iMaGiay == maGiay)
+                                .Select(k => k.iMaNCC)
+                                .FirstOrDefault();
+            return (int)maNCC;
+        }
+
+        public IActionResult ChiTietPhieuNhapKho_Xoa(int id)
+        {
+            var chiTietPhieuNhapKho = _dbCustx.tblChiTietPhieuNhapKho.FirstOrDefault(ct => ct.iMaPNK == id); // Tìm bản ghi cụ thể với khóa chính iMaPNK
+            if (chiTietPhieuNhapKho != null)
+            {
+                _dbCustx.tblChiTietPhieuNhapKho.Remove(chiTietPhieuNhapKho); // Xóa bản ghi
+                _dbCustx.SaveChanges(); // Lưu thay đổi vào cơ sở dữ liệu
+            }
+            return RedirectToAction(nameof(ChiTietPhieuNhapKho));
+        }
+
+        public IActionResult ChiTietPhieuNhapKho_Sua(int id, int MaGiay, int Size)
+        {
+            ViewBag.MaPNK = id;
+            ViewBag.MaGiay = MaGiay;
+            ViewBag.Size = Size;
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult ChiTietPhieuNhapKho_Sua(int iMaPNK, int iMaGiay, int iSize, int iSlNhap, int iGiaNhap)
+        {
+
+            var existingChiTiet = _dbCustx.tblChiTietPhieuNhapKho
+                                      .SingleOrDefault(ct => ct.iMaPNK == iMaPNK && ct.iSize == iSize && ct.iMaGiay == iMaGiay);
+
+
+            var existingKho = _dbCustx.tblKho
+                                      .SingleOrDefault(ct => ct.iSize == iSize && ct.iMaGiay == iMaGiay && ct.iMaNCC == GetMaNCCByMaGiay(iMaGiay));
+            if (existingChiTiet != null)
+            {
+                
+                existingChiTiet.iGiaNhap = iGiaNhap;
+                existingChiTiet.iSlNhap = iSlNhap;
+                _dbCustx.SaveChanges();
+                return RedirectToAction("ChiTietPhieuNhapKho");
+
+               
+            }
+            else
+            {
+                // Xử lý khi không tìm thấy chi tiết phiếu nhập kho
+                TempData["ErrorMessage"] = "Không tìm thấy chi tiết phiếu nhập kho để sửa.";
+                return RedirectToAction("ChiTietPhieuNhapKho");
+            }
+        }
+            
+      
+
+
+
         public IActionResult DonHang()
         {
             return View();
         }
 
-
+       
 
         public IActionResult KhachHang()
         {
-            var lstKH = _dbCustx.tblKhachHang.ToList();
-            return View(lstKH);
-
-        }
-
-        [HttpPost]
-        public IActionResult KhachHang(string TenKH)
-        {
-            if (TenKH == null)
-            {
-                TenKH = " ";
-            }
-
-            var lstKH = _dbCustx.tblKhachHang
-                                .Where(item => item.sTenKH.ToLower().Contains(TenKH.ToLower()))
-                                .ToList();
-
-            return View(lstKH);
-        }
-
-        public IActionResult KhachHang_ThemMoi()
-        {
             return View();
+
         }
-
-        [HttpPost]
-        public IActionResult KhachHang_ThemMoi(int MaKH, string TenKH, string DiaChi, string SDT, int MaTK)
-        {
-            KhachHang khachHang = new KhachHang
-            {
-                iMaKH = MaKH,
-                sTenKH = TenKH,
-                sDiaChi = DiaChi,
-                sSDT = SDT,
-                iMaTK = MaTK
-            };
-
-            _dbCustx.tblKhachHang.Add(khachHang);
-            _dbCustx.SaveChanges();
-            return RedirectToAction("KhachHang");
-        }
-
-        [HttpPost]
-        public IActionResult KhachHang_Xoa(int id)
-        {
-            var kh = _dbCustx.tblKhachHang.Find(id);
-            if (kh != null)
-            {
-                _dbCustx.tblKhachHang.Remove(kh);
-                _dbCustx.SaveChanges();
-            }
-            return RedirectToAction("KhachHang");
-        }
-
-        public IActionResult KhachHang_Sua(int id)
-        {
-            @ViewBag.MaKH = id;
-            return View();
-        }
-
-        [HttpPost]
-        public IActionResult KhachHang_Sua_Handle(string MaKH, string TenKH, string DiaChi, string SDT,int MaTK)
-        {
-            var kh = _dbCustx.tblKhachHang.SingleOrDefault(item => item.iMaKH.Equals(Convert.ToInt16(MaKH)) == true);
-            kh.sTenKH = TenKH;
-            kh.sDiaChi = DiaChi;
-            kh.sSDT = SDT;
-            kh.iMaTK = MaTK;
-
-            _dbCustx.SaveChanges();
-            return RedirectToAction("KhachHang");
-        }
-
-
-
-        public IActionResult LoaiGiay()
-        {
-            var lstLG = _dbCustx.tblLoaiGiay.ToList(); 
-            return View(lstLG);
-        }
-
-        [HttpPost]
-        public IActionResult LoaiGiay(string TenLoaiGiay)
-        {
-            if (TenLoaiGiay == null)
-            {
-                TenLoaiGiay = " ";
-            }
-
-            var lstLG = _dbCustx.tblLoaiGiay
-                                .Where(item => item.sTenLoaiGiay.ToLower().Contains(TenLoaiGiay.ToLower()))
-                                .ToList();
-
-            return View(lstLG);
-        }
-
-        public IActionResult LoaiGiay_ThemMoi()
-        {
-            return View();
-        }
-
-        [HttpPost]
-        public IActionResult LoaiGiay_ThemMoi(int MaLoaiGiay, string TenLoaiGiay)
-        {
-            LoaiGiay loaiGiay = new LoaiGiay
-            {
-                iMaLoaiGiay = MaLoaiGiay,
-                sTenLoaiGiay = TenLoaiGiay
-            };
-
-            _dbCustx.tblLoaiGiay.Add(loaiGiay);
-            _dbCustx.SaveChanges();
-            return RedirectToAction("LoaiGiay");
-        }
-
-        [HttpPost]
-        public IActionResult LoaiGiay_Xoa(string MaLoaiGiay)
-        {
-            ViewData["test"] = MaLoaiGiay;
-            var lg = _dbCustx.tblLoaiGiay.SingleOrDefault(item => item.iMaLoaiGiay.Equals(Convert.ToInt16(MaLoaiGiay)) == true);
-            _dbCustx.tblLoaiGiay.Remove(lg);
-            _dbCustx.SaveChanges();
-            return RedirectToAction("LoaiGiay");
-        }
-       
-
-        public IActionResult LoaiGiay_Sua(string id)
-        {
-            ViewBag.MaLoaiGiay = id;
-            return View();
-        }
-
-        [HttpPost]
-        public IActionResult LoaiGiay_Sua_Handle(string MaLoaiGiay, string TenLoaiGiay)
-        {
-            var lg = _dbCustx.tblLoaiGiay.SingleOrDefault(item => item.iMaLoaiGiay.Equals(Convert.ToInt16(MaLoaiGiay))==true);
-            lg.sTenLoaiGiay = TenLoaiGiay;
-            _dbCustx.SaveChanges();
-            return RedirectToAction("LoaiGiay");
-        }
-
-        public IActionResult TaiKhoan()
-        {
-            var lstTaiKhoan = _dbCustx.tblTaiKhoan.ToList();
-            return View(lstTaiKhoan);
-        }
-
-        [HttpPost]
-        public IActionResult TaiKhoan(string TenTaiKhoan)
-        {
-            if (TenTaiKhoan == null)
-            {
-                TenTaiKhoan = " ";
-            }
-
-            var lstTaiKhoan = _dbCustx.tblTaiKhoan
-                                .Where(item => item.sTenTK.ToLower().Contains(TenTaiKhoan.ToLower()))
-                                .ToList();
-
-            return View(lstTaiKhoan);
-        }
-
-        public IActionResult TaiKhoan_ThemMoi()
-        {
-            return View();
-        }
-
-        [HttpPost]
-        public IActionResult TaiKhoan_ThemMoi(int MaTK,string TenTK, string MatKhau)
-        {
-            TaiKhoan taiKhoan = new TaiKhoan
-            {
-                iMaTK = MaTK,
-                sTenTK = TenTK,
-                sMatkhau = MatKhau
-            };
-
-            _dbCustx.tblTaiKhoan.Add(taiKhoan);
-            _dbCustx.SaveChanges();
-            return RedirectToAction("TaiKhoan");
-        }
-
-        [HttpPost]
-        public IActionResult TaiKhoan_Xoa(string MaTK)
-        {
-            ViewData["test"] = MaTK;
-            var tk = _dbCustx.tblTaiKhoan.SingleOrDefault(item => item.iMaTK.Equals(Convert.ToInt16(MaTK)) == true);
-            _dbCustx.tblTaiKhoan.Remove(tk);
-            _dbCustx.SaveChanges();
-            return RedirectToAction("TaiKhoan");
-        }
-
-        public IActionResult TaiKhoan_Sua(int id)
-        {
-            ViewBag.MaTK = id;
-            return View();
-        }
-
-        [HttpPost]
-        public IActionResult TaiKhoan_Sua_Handle(string MaTK, string TenTaiKhoan, string MatKhau)
-        {
-            var tk = _dbCustx.tblTaiKhoan.SingleOrDefault(item => item.iMaTK.Equals(Convert.ToInt16(MaTK)) == true);
-            tk.sTenTK = TenTaiKhoan;
-            tk.sMatkhau= MatKhau;
-            _dbCustx.SaveChanges();
-            return RedirectToAction("TaiKhoan");
-        }
-
-        public IActionResult HoaDon()
-        {
-            var lstHoaDon = _dbCustx.tblHoaDon.ToList();
-            return View(lstHoaDon);
-        }
-
-        [HttpPost]
-        public IActionResult HoaDon(int MaHD)
-        {
-            var lstHoaDon = _dbCustx.tblHoaDon
-                                .Where(item => item.iMaHD.Equals(Convert.ToInt16(MaHD)) == true)
-                                .ToList();
-
-            return View(lstHoaDon);
-        }
-
-        public IActionResult HoaDon_ThemMoi()
-        {
-            return View();
-        }
-
-        [HttpPost]
-        public IActionResult HoaDon_ThemMoi(int MaHD, int MaNV, int MaKH, DateTime NgayLap)
-        {
-            HoaDon hoaDon = new HoaDon
-            {
-                iMaHD = MaHD,
-                iMaNV = MaNV,
-                iMaKH = MaKH,
-                dNgayLap = NgayLap
-            };
-
-            _dbCustx.tblHoaDon.Add(hoaDon);
-            _dbCustx.SaveChanges();
-            return RedirectToAction("HoaDon");
-        }
-
-        [HttpPost]
-        public IActionResult HoaDon_Xoa(int MaHD)
-        {
-            var hd = _dbCustx.tblHoaDon.SingleOrDefault(item => item.iMaHD.Equals(MaHD));
-            _dbCustx.tblHoaDon.Remove(hd);
-            _dbCustx.SaveChanges();
-            return RedirectToAction("HoaDon");
-        }
-
-        public IActionResult HoaDon_Sua(int id)
-        {
-            ViewBag.MaHD = id;
-            return View();
-        }
-
-        [HttpPost]
-        public IActionResult HoaDon_Sua_Handle(int MaHD, int MaNV, int MaKH, DateTime NgayLap)
-        {
-            var hd = _dbCustx.tblHoaDon.SingleOrDefault(item => item.iMaHD.Equals(MaHD));
-            hd.iMaNV = MaNV;
-            hd.iMaKH = MaKH;
-            hd.dNgayLap = NgayLap;
-            _dbCustx.SaveChanges();
-            return RedirectToAction("HoaDon");
-        }
-
-        public IActionResult ChiTietHD()
-        {
-            var lstChiTietHD = _dbCustx.tblChiTietHD.ToList();
-            return View(lstChiTietHD);
-        }
-       
-
-
-        [HttpPost]
-        public IActionResult ChiTietHD(int MaHD)
-        {
-            var lstChiTietHD = _dbCustx.tblChiTietHD
-                                .Where(item => item.iMaHD.Equals(Convert.ToInt16(MaHD)) == true)
-                                .ToList();
-
-            return View(lstChiTietHD);
-        }
-
-        public IActionResult ChiTietHD_ThemMoi()
-        {
-            return View();
-        }
-
-        [HttpPost]
-        public IActionResult ChiTietHD_ThemMoi(int MaHD, int MaGiay, int Sl, int Tien)
-        {
-            ChiTietHD chiTietHD = new ChiTietHD
-            {
-                iMaHD = MaHD,
-                iMaGiay = MaGiay,
-                iSl = Sl,
-                iTien = Tien
-            };
-
-            _dbCustx.tblChiTietHD.Add(chiTietHD);
-            _dbCustx.SaveChanges();
-            return RedirectToAction("ChiTietHD");
-        }
-
-        [HttpPost]
-        public IActionResult ChiTietHD_Xoa(int MaHD, int MaGiay)
-        {
-            var chiTietHD = _dbCustx.tblChiTietHD.FirstOrDefault(item => item.iMaHD == MaHD && item.iMaGiay == MaGiay);
-            if (chiTietHD != null)
-            {
-                _dbCustx.tblChiTietHD.Remove(chiTietHD);
-                _dbCustx.SaveChanges();
-            }
-            return RedirectToAction("ChiTietHD");
-        }
-
-        public IActionResult ChiTietHD_Sua(int MaHD, int MaGiay)
-        {
-            var chiTietHD = _dbCustx.tblChiTietHD.FirstOrDefault(item => item.iMaHD == MaHD && item.iMaGiay == MaGiay);
-            if (chiTietHD == null)
-            {
-                // Handle error - item not found
-                return RedirectToAction("ChiTietHD");
-            }
-
-            return View(chiTietHD);
-        }
-
-        [HttpPost]
-        public IActionResult ChiTietHD_Sua_Handle(int MaHD, int MaGiay, int Sl, int Tien)
-        {
-            var chiTietHD = _dbCustx.tblChiTietHD.FirstOrDefault(item => item.iMaHD == MaHD && item.iMaGiay == MaGiay);
-            if (chiTietHD != null)
-            {
-                chiTietHD.iSl = Sl;
-                chiTietHD.iTien = Tien;
-                _dbCustx.SaveChanges();
-            }
-            return RedirectToAction("ChiTietHD");
-        }
-
-
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
@@ -931,4 +720,3 @@ namespace QuanLyBanGiay.Controllers
         }
     }
 }
-

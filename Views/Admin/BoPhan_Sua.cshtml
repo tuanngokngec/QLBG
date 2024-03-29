@@ -2,9 +2,14 @@
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 <form method="post" asp-action="BoPhan_Sua_Handle" asp-controller="Admin">
-    <span>Mã bộ phận</span>
-    <input type="text" name="MaBP" value="@ViewBag.MaBP" readonly/> <br />
-    <span>Tên bộ phận</span>
-    <input type="text" name="TenBP" />
-    <input type="submit" value="Cập nhật"/>
+    <div class="form-group">
+        <label for="MaBP">Mã bộ phận</label>
+        <input type="text" class="form-control"  name="MaBP" value="@ViewBag.MaBP" readonly />
+    </div>
+    <div class="form-group">
+        <label for="TenBP">Tên bộ phận</label>
+        <input type="text" class="form-control" name="TenBP" />
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Cập nhật</button>
 </form>

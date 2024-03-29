@@ -22,5 +22,4 @@ namespace QuanLyBanGiay.Models
         [Required]
         public int iTien { get; set; }
     }
-
 }

@@ -2,15 +2,23 @@
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
-<form asp-action="NhaCungCap_ThemMoi" method="post" asp-controller="Admin">
-    <span>Mã nhà cung cấp</span>
-    <input type="text" name="MaNCC" /> <br />  <br />
-    <span>Tên nhà cung cấp</span>
-    <input type="text" name="TenNCC" /> <br />  <br />
-    <span>Địa chỉ</span>
-    <input type="text" name="DiaChi" /> <br />  <br />
-    <span>Số điện thoại</span>
-    <input type="text" name="SDT" /> <br />  <br />
+<form method="post" asp-action="NhaCungCap_ThemMoi" asp-controller="Admin">
+    <div class="form-group">
+        <label for="MaNCC">Mã nhà cung cấp</label>
+        <input type="text" class="form-control" id="MaNCC" name="MaNCC" />
+    </div>
+    <div class="form-group">
+        <label for="TenNCC">Tên nhà cung cấp</label>
+        <input type="text" class="form-control" id="TenNCC" name="TenNCC" />
+    </div>
+    <div class="form-group">
+        <label for="DiaChi">Địa chỉ</label>
+        <input type="text" class="form-control" id="DiaChi" name="DiaChi" />
+    </div>
+    <div class="form-group">
+        <label for="SDT">Số điện thoại</label>
+        <input type="text" class="form-control" id="SDT" name="SDT" />
+    </div>
     <br />
-    <input type="submit" value="Thêm mới" />
+    <button type="submit" class="btn btn-primary">Thêm mới</button>
 </form>

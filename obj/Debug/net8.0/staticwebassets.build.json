@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jhhd60Cy7/0oGMOcRoJOae8x310RKOSRcmEn50IpZcE=",
+  "Hash": "DK6J/VITSl6FsLeIIQKtBP323xqCjo0URJCcjO57Y2M=",
   "Source": "QuanLyBanGiay",
   "BasePath": "_content/QuanLyBanGiay",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "QuanLyBanGiay\\wwwroot",
       "Source": "QuanLyBanGiay",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\obj\\Debug\\net8.0\\scopedcss\\bundle\\QuanLyBanGiay.styles.css",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\obj\\Debug\\net8.0\\scopedcss\\bundle\\QuanLyBanGiay.styles.css",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "QuanLyBanGiay.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\BTL THWNC\\QuanLyBanGiay\\obj\\Debug\\net8.0\\scopedcss\\bundle\\QuanLyBanGiay.styles.css"
+      "OriginalItemSpec": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\obj\\Debug\\net8.0\\scopedcss\\bundle\\QuanLyBanGiay.styles.css"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\QuanLyBanGiay.bundle.scp.css",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\QuanLyBanGiay.bundle.scp.css",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "QuanLyBanGiay.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\BTL THWNC\\QuanLyBanGiay\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\QuanLyBanGiay.bundle.scp.css"
+      "OriginalItemSpec": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\QuanLyBanGiay.bundle.scp.css"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\css\\site.css",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\css\\site.css",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\favicon.ico",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\favicon.ico",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\=))))))))))).JPG",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\=))))))))))).JPG",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/=))))))))))).JPG",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\image\\=))))))))))).JPG"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\anhthu1.png",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\anhthu1.png",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/anhthu1.png",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\image\\anhthu1.png"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\Aosomi.png",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\Aosomi.png",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/Aosomi.png",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Aosomi.png"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\as.png",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\as.png",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/as.png",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\image\\as.png"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\banner.png",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\banner.png",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/banner.png",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\image\\banner.png"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\hvltb4.png",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\hvltb4.png",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/hvltb4.png",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\image\\hvltb4.png"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\hvltbt4.png",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\hvltbt4.png",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/hvltbt4.png",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\image\\hvltbt4.png"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\hvltl3t32.png",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\hvltl3t32.png",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/hvltl3t32.png",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\image\\hvltl3t32.png"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\KHẢO SÁT VỀ HOẠT ĐỘNG GIẢNG DẠY HỌC PHẦN CỦA GIẢNG VIÊN.png",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\KHẢO SÁT VỀ HOẠT ĐỘNG GIẢNG DẠY HỌC PHẦN CỦA GIẢNG VIÊN.png",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/KHẢO SÁT VỀ HOẠT ĐỘNG GIẢNG DẠY HỌC PHẦN CỦA GIẢNG VIÊN.png",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\image\\KHẢO SÁT VỀ HOẠT ĐỘNG GIẢNG DẠY HỌC PHẦN CỦA GIẢNG VIÊN.png"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\logo.png",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\logo.png",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/logo.png",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\image\\logo.png"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\NguyenDucCuong_Lichhoc.png",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\NguyenDucCuong_Lichhoc.png",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/NguyenDucCuong_Lichhoc.png",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\image\\NguyenDucCuong_Lichhoc.png"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\Nu\\Advangtage Shoes 1800k.jpg",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\Nu\\Advangtage Shoes 1800k.jpg",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/Nu/Advangtage Shoes 1800k.jpg",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Nu\\Advangtage Shoes 1800k.jpg"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\Nu\\Bravada shoes 1500k.jpg",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\Nu\\Bravada shoes 1500k.jpg",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/Nu/Bravada shoes 1500k.jpg",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Nu\\Bravada shoes 1500k.jpg"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\Nu\\Courtphase shoes 1800.jpg",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\Nu\\Courtphase shoes 1800.jpg",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/Nu/Courtphase shoes 1800.jpg",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Nu\\Courtphase shoes 1800.jpg"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\Nu\\Lite Racer 3.0 Shoes 1500.jpg",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\Nu\\Lite Racer 3.0 Shoes 1500.jpg",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/Nu/Lite Racer 3.0 Shoes 1500.jpg",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Nu\\Lite Racer 3.0 Shoes 1500.jpg"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\Nu\\Lite Racer Rebold Shoes 1800.jpg",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\Nu\\Lite Racer Rebold Shoes 1800.jpg",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/Nu/Lite Racer Rebold Shoes 1800.jpg",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Nu\\Lite Racer Rebold Shoes 1800.jpg"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\Nu\\Racer Tr21 Shoes 2000 - 2.jpg",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\Nu\\Racer Tr21 Shoes 2000 - 2.jpg",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/Nu/Racer Tr21 Shoes 2000 - 2.jpg",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Nu\\Racer Tr21 Shoes 2000 - 2.jpg"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\Nu\\Racer Tr21 Shoes 2000.jpg",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\Nu\\Racer Tr21 Shoes 2000.jpg",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/Nu/Racer Tr21 Shoes 2000.jpg",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Nu\\Racer Tr21 Shoes 2000.jpg"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\Nu\\Roguera shoes.jpg",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\Nu\\Roguera shoes.jpg",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/Nu/Roguera shoes.jpg",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Nu\\Roguera shoes.jpg"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\Picture1.png",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\Picture1.png",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/Picture1.png",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Picture1.png"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\Picture2.png",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\Picture2.png",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/Picture2.png",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Picture2.png"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\Picture3.png",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\Picture3.png",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/Picture3.png",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Picture3.png"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\picture4.png",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\picture4.png",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/picture4.png",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\image\\picture4.png"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\planet9_Wallpaper_5000x2813.jpg",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\planet9_Wallpaper_5000x2813.jpg",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/planet9_Wallpaper_5000x2813.jpg",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\image\\planet9_Wallpaper_5000x2813.jpg"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\Screenshot 2023-03-27 095954.png",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\Screenshot 2023-03-27 095954.png",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/Screenshot 2023-03-27 095954.png",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Screenshot 2023-03-27 095954.png"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\Screenshot 2024-02-02 075413.png",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\Screenshot 2024-02-02 075413.png",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/Screenshot 2024-02-02 075413.png",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Screenshot 2024-02-02 075413.png"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\Screenshot 2024-02-13 110108.png",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\Screenshot 2024-02-13 110108.png",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/Screenshot 2024-02-13 110108.png",
       "AssetKind": "All",
@@ -606,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Screenshot 2024-02-13 110108.png"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\Screenshot 2024-02-17 095858.png",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\Screenshot 2024-02-17 095858.png",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/Screenshot 2024-02-17 095858.png",
       "AssetKind": "All",
@@ -625,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Screenshot 2024-02-17 095858.png"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\Screenshot 2024-02-17 100415.png",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\Screenshot 2024-02-17 100415.png",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/Screenshot 2024-02-17 100415.png",
       "AssetKind": "All",
@@ -644,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Screenshot 2024-02-17 100415.png"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\Sneaker\\Advangtage Shoes 1800k.jpg",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\Sneaker\\Advangtage Shoes 1800k.jpg",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/Sneaker/Advangtage Shoes 1800k.jpg",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Sneaker\\Advangtage Shoes 1800k.jpg"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\Sneaker\\Bravada shoes 1500k.jpg",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\Sneaker\\Bravada shoes 1500k.jpg",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/Sneaker/Bravada shoes 1500k.jpg",
       "AssetKind": "All",
@@ -682,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Sneaker\\Bravada shoes 1500k.jpg"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\Sneaker\\Courtphase shoes 1800.jpg",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\Sneaker\\Courtphase shoes 1800.jpg",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/Sneaker/Courtphase shoes 1800.jpg",
       "AssetKind": "All",
@@ -701,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Sneaker\\Courtphase shoes 1800.jpg"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\Sneaker\\Forum premiere shoes - 4800k.jpg",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\Sneaker\\Forum premiere shoes - 4800k.jpg",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/Sneaker/Forum premiere shoes - 4800k.jpg",
       "AssetKind": "All",
@@ -720,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Sneaker\\Forum premiere shoes - 4800k.jpg"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\Sneaker\\Jordan MA2.png",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\Sneaker\\Jordan MA2.png",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/Sneaker/Jordan MA2.png",
       "AssetKind": "All",
@@ -739,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Sneaker\\Jordan MA2.png"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\Sneaker\\Lite Racer 3.0 Shoes 1500.jpg",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\Sneaker\\Lite Racer 3.0 Shoes 1500.jpg",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/Sneaker/Lite Racer 3.0 Shoes 1500.jpg",
       "AssetKind": "All",
@@ -758,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Sneaker\\Lite Racer 3.0 Shoes 1500.jpg"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\Sneaker\\Nike Air Force 1 - 2649k.png",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\Sneaker\\Nike Air Force 1 - 2649k.png",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/Sneaker/Nike Air Force 1 - 2649k.png",
       "AssetKind": "All",
@@ -777,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Sneaker\\Nike Air Force 1 - 2649k.png"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\Sneaker\\Nike Air Force 1 '07 LV8 - 3240k.png",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\Sneaker\\Nike Air Force 1 '07 LV8 - 3240k.png",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/Sneaker/Nike Air Force 1 '07 LV8 - 3240k.png",
       "AssetKind": "All",
@@ -796,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Sneaker\\Nike Air Force 1 '07 LV8 - 3240k.png"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\Sneaker\\Nike Air Max 90.png",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\Sneaker\\Nike Air Max 90.png",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/Sneaker/Nike Air Max 90.png",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Sneaker\\Nike Air Max 90.png"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\Sneaker\\Nike Air Max Dawn - 3519k.png",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\Sneaker\\Nike Air Max Dawn - 3519k.png",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/Sneaker/Nike Air Max Dawn - 3519k.png",
       "AssetKind": "All",
@@ -834,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Sneaker\\Nike Air Max Dawn - 3519k.png"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\Sneaker\\Nike Air Max SC - 2189k.png",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\Sneaker\\Nike Air Max SC - 2189k.png",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/Sneaker/Nike Air Max SC - 2189k.png",
       "AssetKind": "All",
@@ -853,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Sneaker\\Nike Air Max SC - 2189k.png"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\Sneaker\\Nike Dunk High Retro SE.png",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\Sneaker\\Nike Dunk High Retro SE.png",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/Sneaker/Nike Dunk High Retro SE.png",
       "AssetKind": "All",
@@ -872,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Sneaker\\Nike Dunk High Retro SE.png"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\Sneaker\\Nike Dunk Low By You - 3519k.png",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\Sneaker\\Nike Dunk Low By You - 3519k.png",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/Sneaker/Nike Dunk Low By You - 3519k.png",
       "AssetKind": "All",
@@ -891,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Sneaker\\Nike Dunk Low By You - 3519k.png"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\Sneaker\\NMD_S1.jpg",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\Sneaker\\NMD_S1.jpg",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/Sneaker/NMD_S1.jpg",
       "AssetKind": "All",
@@ -910,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Sneaker\\NMD_S1.jpg"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\Sneaker\\Retropy E5 shoes 3300k - 2.jpg",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\Sneaker\\Retropy E5 shoes 3300k - 2.jpg",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/Sneaker/Retropy E5 shoes 3300k - 2.jpg",
       "AssetKind": "All",
@@ -929,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Sneaker\\Retropy E5 shoes 3300k - 2.jpg"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\Sneaker\\Retropy E5 shoes 3300k.jpg",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\Sneaker\\Retropy E5 shoes 3300k.jpg",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/Sneaker/Retropy E5 shoes 3300k.jpg",
       "AssetKind": "All",
@@ -948,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Sneaker\\Retropy E5 shoes 3300k.jpg"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\Sneaker\\Retropy f2 shoes 2400k.jpg",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\Sneaker\\Retropy f2 shoes 2400k.jpg",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/Sneaker/Retropy f2 shoes 2400k.jpg",
       "AssetKind": "All",
@@ -967,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Sneaker\\Retropy f2 shoes 2400k.jpg"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\Sneaker\\Retropy p9 shoes 4200k.jpg",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\Sneaker\\Retropy p9 shoes 4200k.jpg",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/Sneaker/Retropy p9 shoes 4200k.jpg",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Sneaker\\Retropy p9 shoes 4200k.jpg"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\Sneaker\\Ultraboost 22 heat.rdy.jpg",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\Sneaker\\Ultraboost 22 heat.rdy.jpg",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/Sneaker/Ultraboost 22 heat.rdy.jpg",
       "AssetKind": "All",
@@ -1005,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Sneaker\\Ultraboost 22 heat.rdy.jpg"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\Sneaker\\Ultraboost 22 Shoes.jpg",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\Sneaker\\Ultraboost 22 Shoes.jpg",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/Sneaker/Ultraboost 22 Shoes.jpg",
       "AssetKind": "All",
@@ -1024,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Sneaker\\Ultraboost 22 Shoes.jpg"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\Sneaker\\Ultraboost 22 W.jpg",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\Sneaker\\Ultraboost 22 W.jpg",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/Sneaker/Ultraboost 22 W.jpg",
       "AssetKind": "All",
@@ -1043,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Sneaker\\Ultraboost 22 W.jpg"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\Sneaker\\Ultraboost 5.0 DNA.jpg",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\Sneaker\\Ultraboost 5.0 DNA.jpg",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/Sneaker/Ultraboost 5.0 DNA.jpg",
       "AssetKind": "All",
@@ -1062,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Sneaker\\Ultraboost 5.0 DNA.jpg"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\image\\tesstluu.png",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\image\\tesstluu.png",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "image/tesstluu.png",
       "AssetKind": "All",
@@ -1081,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\image\\tesstluu.png"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\js\\site.js",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\js\\site.js",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1100,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1119,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1138,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1157,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1176,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1195,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1252,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1271,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1290,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1328,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1347,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1366,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1385,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1404,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1423,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1442,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1461,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1480,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1499,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1518,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1537,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1556,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1575,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1594,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1613,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1651,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1670,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1689,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1708,10 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1727,10 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1746,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1765,10 +1765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1784,10 +1784,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1803,10 +1803,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1822,10 +1822,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1841,10 +1841,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1860,10 +1860,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1879,10 +1879,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1898,10 +1898,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1917,10 +1917,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1936,10 +1936,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1974,10 +1974,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1993,10 +1993,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2012,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2031,10 +2031,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2050,10 +2050,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2069,10 +2069,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2088,10 +2088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2107,10 +2107,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2126,10 +2126,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2145,10 +2145,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2164,10 +2164,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "QuanLyBanGiay",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay\\wwwroot\\",
+      "ContentRoot": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\wwwroot\\",
       "BasePath": "_content/QuanLyBanGiay",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
