@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\BTL THWNC\\QuanLyBanGiay\\QuanLyBanGiay.csproj": {}
+    "D:\\BTL THWNC\\QuanLyBanGiay (1)\\QuanLyBanGiay.csproj": {}
   },
   "projects": {
-    "D:\\BTL THWNC\\QuanLyBanGiay\\QuanLyBanGiay.csproj": {
+    "D:\\BTL THWNC\\QuanLyBanGiay (1)\\QuanLyBanGiay.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BTL THWNC\\QuanLyBanGiay\\QuanLyBanGiay.csproj",
+        "projectUniqueName": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\QuanLyBanGiay.csproj",
         "projectName": "QuanLyBanGiay",
-        "projectPath": "D:\\BTL THWNC\\QuanLyBanGiay\\QuanLyBanGiay.csproj",
+        "projectPath": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\QuanLyBanGiay.csproj",
         "packagesPath": "C:\\Users\\TUANHA\\.nuget\\packages\\",
-        "outputPath": "D:\\BTL THWNC\\QuanLyBanGiay\\obj\\",
+        "outputPath": "D:\\BTL THWNC\\QuanLyBanGiay (1)\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

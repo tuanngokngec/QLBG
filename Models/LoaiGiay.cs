@@ -5,7 +5,7 @@ namespace QuanLyBanGiay.Models
     public class LoaiGiay
     {
         [Key]
-        public int iMaLoaiGiay { get; set; }
+        public int? sMaLoaiGiay { get; set; }
         public string? sTenLoaiGiay { get; set; }
     }
 }

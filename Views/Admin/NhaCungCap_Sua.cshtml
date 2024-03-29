@@ -3,14 +3,22 @@
 }
 
 <form method="post" asp-action="NhaCungCap_Sua_Handle" asp-controller="Admin">
-    <span>Mã nhà cung cấp</span>
-    <input type="text" name="MaNCC" value="@ViewBag.MaNCC" readonly /> <br />
-    <span>Tên nhà cung cấp</span>
-    <input type="text" name="TenNCC" /> <br />
-    <span>Địa chỉ</span>
-    <input type="text" name="DiaChi" /> <br />
-    <span>Số điện thoại</span>
-    <input type="text" name="SDT" /> <br />
-
-    <input type="submit" value="Cập nhật" />
+    <div class="form-group">
+        <label for="MaNCC">Mã nhà cung cấp</label>
+        <input type="text" class="form-control" id="MaNCC" name="MaNCC" value="@ViewBag.MaNCC" readonly />
+    </div>
+    <div class="form-group">
+        <label for="TenNCC">Tên nhà cung cấp</label>
+        <input type="text" class="form-control" id="TenNCC" name="TenNCC" />
+    </div>
+    <div class="form-group">
+        <label for="DiaChi">Địa chỉ</label>
+        <input type="text" class="form-control" id="DiaChi" name="DiaChi" />
+    </div>
+    <div class="form-group">
+        <label for="SDT">Số điện thoại</label>
+        <input type="text" class="form-control" id="SDT" name="SDT" />
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Cập nhật</button>
 </form>

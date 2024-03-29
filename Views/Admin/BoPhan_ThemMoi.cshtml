@@ -3,10 +3,14 @@
 }
 
 <form asp-action="BoPhan_ThemMoi" method="post" asp-controller="Admin">
-    <span>Mã bộ phận</span>
-    <input type="text" name="MaBP"/> <br />
-    <span>Tên bộ phận</span>
-    <input type="text" name="TenBP"/>
+    <div class="form-group">
+        <label for="MaBP">Mã bộ phận</label>
+        <input type="text" class="form-control" id="MaBP" name="MaBP" />
+    </div>
+    <div class="form-group">
+        <label for="TenBP">Tên bộ phận</label>
+        <input type="text" class="form-control" id="TenBP" name="TenBP" />
+    </div>
     <br />
-    <input type="submit" value="Thêm mới"/>
+    <button type="submit" class="btn btn-primary">Thêm mới</button>
 </form>
