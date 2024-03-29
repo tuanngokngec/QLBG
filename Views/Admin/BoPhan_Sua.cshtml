@@ -1,0 +1,10 @@
+﻿@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<form method="post" asp-action="BoPhan_Sua_Handle" asp-controller="Admin">
+    <span>Mã bộ phận</span>
+    <input type="text" name="MaBP" value="@ViewBag.MaBP" readonly/> <br />
+    <span>Tên bộ phận</span>
+    <input type="text" name="TenBP" />
+    <input type="submit" value="Cập nhật"/>
+</form>

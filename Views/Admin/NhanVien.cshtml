@@ -1,0 +1,132 @@
+﻿@* @{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+} *@
+
+@* @model List<NhanVien> *@
+@*  @model  IEnumerable<dynamic> *@
+
+@* <form method="post" asp-controller="admin" asp-action="NhanVien">
+    <span>
+        Tên NV
+    </span>
+    <input type="text" name="TenNV" />
+    <input type="submit" value="search" />
+
+    <br />
+    <table class="table table-bordered">
+        <tr>
+            <th>Tên NV</th>
+            <th>Tên BP</th>
+            
+        </tr> *@
+      @*   @foreach (NhanVien nhanVien in Model)
+        {
+            <tr>
+                <td>
+                    @nhanVien.sMaNV
+                </td>
+                <td>
+                    @nhanVien.sTenNV
+                </td>
+             
+            </tr>
+        } *@
+      @*   @foreach (var nhanVien in Model)
+        {
+            <tr>
+                <td>
+                    @nhanVien.TenNhanVien
+                </td>
+                <td>
+                    @nhanVien.TenBoPhan
+                </td>
+
+            </tr>
+        }
+    </table>
+
+</form> *@
+
+
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@model List<NhanVien> 
+
+<script>
+    function confirmDelete() {
+        return confirm('Bạn có chắc chắn muốn xóa không?');
+    }
+</script>
+
+<form method="post" asp-controller="admin" asp-action="NhanVien">
+    <span>
+        Tên nhân viên 
+    </span>
+    <input type="text" name="TenNV" /> 
+    <input type="submit" value="Tìm kiếm" />
+
+    <br />
+
+    <br />
+    <table class="table table-bordered">
+        <tr>
+            <th style="text-align:center">Mã nhân viên</th> 
+            <th style="text-align:center">Tên nhân viên</th>
+            <th style="text-align:center">Ngày sinh</th> 
+            <th style="text-align:center">Giới tính</th> 
+            <th style="text-align:center">Số điện thoại</th>
+            <th style="text-align:center">Thao tác</th>
+        </tr>
+        @foreach (var nv in Model) 
+        {
+            <tr>
+                <td>
+                    @nv.iMaNV 
+                </td>
+                <td>
+                    @nv.sTenNV 
+                </td>
+                <td>
+                    @nv.dNgaysinh.ToShortDateString() 
+                </td>
+                <td>
+                    @nv.sGioiTinh 
+                </td>
+                <td>
+                    @nv.sSDT 
+                </td>
+                <td>
+                    @nv.iLuongCB
+                </td>
+                <td>
+                    @nv.fHSL
+                </td>
+                <td>
+                    @nv.iPC
+                </td>
+                 <td>
+                    @nv.iMaBP
+                </td>
+                <td>
+                    @nv.dNgayvaolam
+                </td>
+                <td>
+                    <div class="container-btn" style="display:inline-block">
+                        <form method="post" asp-controller="Admin" asp-action="NhanVien_Xoa" onsubmit="return confirmDelete();">
+                            <input type="hidden" name="MaNV" value="@nv.iMaNV" /> 
+                            <input type="submit" value="Xóa" class="border border-2 btn btn-danger" />
+                        </form>
+                    </div>
+                    <a asp-action="NhanVien_Sua" asp-controller="Admin" asp-route-id="@nv.iMaNV" style="text-decoration:none; color:white;" class="border border-2 btn btn-danger">Cập nhật</a>
+                </td>
+            </tr>
+        }
+    </table>
+</form>
+
+<a href="~/Admin/NhanVien_ThemMoi">Thêm mới</a> 
+
+

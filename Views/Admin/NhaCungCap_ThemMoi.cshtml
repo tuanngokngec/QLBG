@@ -1,0 +1,16 @@
+﻿@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<form asp-action="NhaCungCap_ThemMoi" method="post" asp-controller="Admin">
+    <span>Mã nhà cung cấp</span>
+    <input type="text" name="MaNCC" /> <br />  <br />
+    <span>Tên nhà cung cấp</span>
+    <input type="text" name="TenNCC" /> <br />  <br />
+    <span>Địa chỉ</span>
+    <input type="text" name="DiaChi" /> <br />  <br />
+    <span>Số điện thoại</span>
+    <input type="text" name="SDT" /> <br />  <br />
+    <br />
+    <input type="submit" value="Thêm mới" />
+</form>
